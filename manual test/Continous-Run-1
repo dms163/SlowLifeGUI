@@ -1,0 +1,21 @@
+Test Name: Continuous-Run-1
+
+Result: PASS
+
+Description:
+Test if the modified and unmodified code produce the same result with the same pattern.
+
+Test Setup:
+1) Start an instance of the game with the original code with the argument "15".
+2) Start an instance of the game with the modified code with the argument of "15".
+ 
+
+Test Case:
+1) Create a pattern in both instances that matches by clicking on the cells that		   matches the picture provided.
+2) Press the "Run Continuous" button on the game run with the original code.
+3) Verfiy the game stopped changing the pattern in the current window.
+4) Press the "Run Continuous" button on the game run with the modified code.
+5) Verify the game stopped changing the pattern in the current window.
+
+Results/Validation
+1) Verify the two patterns or shapes produced by the two game instances are identical.
